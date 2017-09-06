@@ -316,10 +316,11 @@ of Data is to have an Array full of objects. */
 //Create an empty array called users.
 
   //Code Here
+  let users = [];
 
 /*Now add three user objects to your users array. Each user object should contain the
 following properties. name, email, password, username.*/
-
+users.push(user1, user2, user3, user4);
 //include this as one of the objects in your array.
 var user1 = {
     name: 'Tyler McGinnis',
@@ -327,6 +328,25 @@ var user1 = {
     password: 'iLoveJavaScript',
     username: 'infiniateLoop'
 };
+var user2 = {
+  name: 'Cyler McGinnis',
+  email: 'tylermcginnis33@gmail.com',
+  password: 'iLoveJavaScript',
+  username: 'infiniateLoop'
+};
+var user3 = {
+  name: 'Dyler McGinnis',
+  email: 'tylermcginnis33@gmail.com',
+  password: 'iLoveJavaScript',
+  username: 'infiniateLoop'
+};
+var user4 = {
+  name: 'Lyler McGinnis',
+  email: 'tylermcginnis33@gmail.com',
+  password: 'iLoveJavaScript',
+  username: 'infiniateLoop'
+};
+
 
 //Your Code Here
 
