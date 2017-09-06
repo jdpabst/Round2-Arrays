@@ -58,7 +58,14 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
   //Code Here
 
-
+function evenFinder(nums){
+  for(var i = nums.length - 1; i >= 0 ; i--){
+    if(nums[i] % 2 !== 0){
+      nums.splice(i, 1);
+    }
+  }
+  return nums;
+}
 
 
   
