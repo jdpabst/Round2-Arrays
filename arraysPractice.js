@@ -320,7 +320,6 @@ of Data is to have an Array full of objects. */
 
 /*Now add three user objects to your users array. Each user object should contain the
 following properties. name, email, password, username.*/
-users.push(user1, user2, user3, user4);
 //include this as one of the objects in your array.
 var user1 = {
     name: 'Tyler McGinnis',
@@ -330,26 +329,26 @@ var user1 = {
 };
 var user2 = {
   name: 'Cyler McGinnis',
-  email: 'tylermcginnis33@gmail.com',
+  email: 'tylermcginnis34@gmail.com',
   password: 'iLoveJavaScript',
   username: 'infiniateLoop'
 };
 var user3 = {
   name: 'Dyler McGinnis',
-  email: 'tylermcginnis33@gmail.com',
+  email: 'tylermcginnis35@gmail.com',
   password: 'iLoveJavaScript',
   username: 'infiniateLoop'
 };
 var user4 = {
   name: 'Lyler McGinnis',
-  email: 'tylermcginnis33@gmail.com',
+  email: 'tylermcginnis36@gmail.com',
   password: 'iLoveJavaScript',
   username: 'infiniateLoop'
 };
 
 
 //Your Code Here
-
+users.push(user1, user2, user3, user4);
 /*Now you have a very common data structure. Twitter is a good use case.
 It's easy to imagine that your followers list on Twitter is an Array full or objects
 and those objects contain properties about the specific person you follow.*/
@@ -359,5 +358,9 @@ objects until you find Tyler's account (use tylermcginnis33@gmail.com to find hi
 Once you find the particular index he's located in, delete him from the array.*/
 
   //Code Here
-
+for(var i = 0; i < users.length; i++){
+  if(users[i].email === "tylermcginnis33@gmail.com"){
+    users.splice(i, 1)
+  }
+}
 //The activity we just did is very much how data works in 'the real world'.
