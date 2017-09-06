@@ -197,7 +197,12 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 //array after adding ten to each item in numbers. *Verify your answer is correct. --> [15, 19, 26, 29, 35, 44, 58]
 
   //Code Here
-
+  function addTen(arr){
+    for(var i = 0; i < arr.length; i++){
+      arr[i] = parseInt(arr[i]) + 10;
+    }
+    return arr;
+  }
 
 
 //Next Problem
