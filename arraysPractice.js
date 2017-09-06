@@ -122,7 +122,16 @@ var getRandomArbitrary = function() {
 
   //Code Here
 
-
+function finder(num){
+  console.log('this is the array: ' + numbers);
+  console.log('this is num: ' + num);
+  for(var i = 0; i < numbers.length; i++){
+    if(numbers[i] === num){
+      return true;
+    }
+  }
+  return false;
+}
 
 
 //Next Problem
